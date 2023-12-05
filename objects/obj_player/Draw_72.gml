@@ -21,14 +21,12 @@ if !global.paused && global.screen_image == -1 {
         znext = z - 40;
     }else{
         if can_move {
-			var _dmx = mouse_x - mousex;
-			var _dmy = mouse_y - mousey;
             if !instance_exists(obj_dialogue){
-                direction -= (_dmx-(display_get_width()/2))/8
-                znext = clamp(znext - (_dmy-(display_get_height()/2))/4, -180 + z, 180 + z)
+                direction -= (display_mouse_get_x()-(display_get_width()/2))/8
+                znext = clamp(znext - (display_mouse_get_y()-(display_get_height()/2))/4, -180 + z, 180 + z)
+				
+				display_mouse_set(display_get_width()/2, display_get_height()/2);
             }
-			mousex = mouse_x
-			mousey = mouse_y
         }
     }
 }
