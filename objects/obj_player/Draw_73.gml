@@ -1,0 +1,1 @@
+d3d_set_fog(0, c_black, 0, 120);
