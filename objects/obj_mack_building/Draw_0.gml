@@ -31,11 +31,11 @@ with(obj_door){
     image_alpha = alpha
 }
 
-// audio_sound_pitch(global.music, clamp(alpha, 0.95, 1));
 if !zoo
 	audio_sound_gain(global.music, clamp(alpha, 0, 1), 0);
 
 draw_set_alpha(alpha);
+
 // The building
 d3d_draw_block(x, y, z, x + buildingwidth, y + buildinglength, z + buildingheight/2, sprite_get_texture(spr_wall, 0), image_yscale, image_yscale); 
 d3d_draw_block(x + buildingwidth/4, y, z + buildingheight/2, x + buildingwidth*3/4, y + buildinglength, z + buildingheight, sprite_get_texture(spr_wall, 0), image_yscale, image_yscale); 

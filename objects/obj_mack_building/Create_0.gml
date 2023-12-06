@@ -1,4 +1,3 @@
-
 tick = 0
 zoo = false;
 

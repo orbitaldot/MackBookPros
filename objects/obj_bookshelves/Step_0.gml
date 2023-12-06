@@ -1,5 +1,5 @@
 if interacted {
-	global.msg[0] = "Inside a random book,#you find the following#text...";
+	global.msg[0] = scr_global_msg_from_text("bookshelves_pre_babel");
 	var i = 1;
 	repeat(irandom_range(3,7)) {
 		var d = 0;
@@ -23,7 +23,7 @@ if interacted {
 	};
 	
 	if times > 2 {
-		global.msg[1] = "LOG ENTRY 18";	
+		global.msg[1] = global.text[? "bookshelves_log18"];	
 	}
 	
 	instance_create(0, 0, obj_dialogue);

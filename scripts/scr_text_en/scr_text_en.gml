@@ -15,6 +15,8 @@ function scr_text_en() {
 	new_text("outside_sign_bus_0", "Take a bus to#THE CITY?");
 	new_text("outside_sign_bus_1", "No busses departing from#here at the moment...");
 	
+	new_text("locked_door", "Locked.");
+	
 	new_text("maria_intro_0", "Hiiiii!#:D")
 	new_text("maria_intro_1", "Im Mack Maria :)#Macks daughter :)");
 	new_text("maria_intro_2", "You must be the#new  hire, yeah?# c:");
@@ -36,4 +38,7 @@ function scr_text_en() {
 	new_text("filescreen_funny_picture", "See a funny picture?");
 	new_text("filescreen_yes", "Yes");
 	new_text("filescreen_no", "No");
+	
+	new_text("bookshelves_pre_babel_0", "Inside a random book,#you find the following#text...");
+	new_text("bookshelves_log18", "LOG ENTRY 18");
 }
