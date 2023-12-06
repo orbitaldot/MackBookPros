@@ -1,6 +1,6 @@
-if global.increase_floor {
+if (global.increase_floor) {
     global.current_floor++;
-    global.increase_floor = 0;
+    global.increase_floor = false;
 }
 
 switch(room){
