@@ -43,6 +43,6 @@ function scr_text_en() {
 	new_text("filescreen_yes", "Yes");
 	new_text("filescreen_no", "No");
 	
-	new_text("bookshelves_pre_babel_0", "Inside a random book,#you find the following#text...");
+	new_text("bookshelves_pre_babel", "Inside a random book,#you find the following#text...");
 	new_text("bookshelves_log18", "LOG ENTRY 18");
 }

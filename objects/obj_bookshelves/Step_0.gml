@@ -1,5 +1,5 @@
 if interacted {
-	global.msg[0] = scr_global_msg_from_text("bookshelves_pre_babel");
+	global.msg[0] = global.text[? "bookshelves_pre_babel"];
 	var i = 1;
 	repeat(irandom_range(3,7)) {
 		var d = 0;
