@@ -71,7 +71,6 @@
     {"id":{"name":"spr_door_editor_left","path":"sprites/spr_door_editor_left/spr_door_editor_left.yy",},},
     {"id":{"name":"spr_door_editor_up","path":"sprites/spr_door_editor_up/spr_door_editor_up.yy",},},
     {"id":{"name":"spr_door_editor_right","path":"sprites/spr_door_editor_right/spr_door_editor_right.yy",},},
-    {"id":{"name":"sprite31","path":"sprites/sprite31/sprite31.yy",},},
     {"id":{"name":"spr_floor_grating","path":"sprites/spr_floor_grating/spr_floor_grating.yy",},},
     {"id":{"name":"shader_ca","path":"shaders/shader_ca/shader_ca.yy",},},
     {"id":{"name":"font_8bit","path":"fonts/font_8bit/font_8bit.yy",},},
