@@ -1,15 +1,15 @@
 tick++
 
-if keyboard_check(vk_up) {
+if keyboard_check(ord("W")) {
 	image_angle = 90
 	vel = [0, -1]
-} else if keyboard_check(vk_down) {
+} else if keyboard_check(ord("S")) {
 	image_angle = 270
 	vel = [0, 1]
-} else if keyboard_check(vk_right) {
+} else if keyboard_check(ord("D")) {
 	image_angle = 0
 	vel = [1, 0]
-} else if keyboard_check(vk_left) {
+} else if keyboard_check(ord("A")) {
 	image_angle = 180
 	vel = [-1, 0]
 }

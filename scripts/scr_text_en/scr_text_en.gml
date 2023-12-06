@@ -17,6 +17,8 @@ function scr_text_en() {
 	
 	new_text("locked_door", "Locked.");
 	
+	new_text("maria_interact_text", "Talk to Mack Maria");
+	
 	new_text("maria_intro_0", "Hiiiii!#:D")
 	new_text("maria_intro_1", "Im Mack Maria :)#Macks daughter :)");
 	new_text("maria_intro_2", "You must be the#new  hire, yeah?# c:");
@@ -28,6 +30,8 @@ function scr_text_en() {
 	new_text("maria_intro_b_1", "He really needs some#help with this place!!!");
 	new_text("maria_intro_b_2", "I do a great job#already, but the more#the merrier!!!!#:DDD");
 	
+	new_text("arcade_interact_packmack", "Play \"Pack Mack\"");
+	new_text("arcade_interact_mackbro", "Play \"Mack Bro\"");
 	new_text("arcade_ascend", "HEAVENLY\nASCENSION\nCOMPLETE!");
 	
 	new_text("filescreen_nosave", "ERROR\nNo save file found.\n\nYou cannot play this game.");

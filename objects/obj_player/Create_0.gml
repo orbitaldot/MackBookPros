@@ -2,6 +2,7 @@ d3d_start();
 d3d_set_shading(true);
 
 interact_cooldown = 0;
+interact_text = "";
 
 self.old_int = noone
 
