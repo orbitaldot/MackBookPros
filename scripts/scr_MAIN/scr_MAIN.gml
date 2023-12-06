@@ -48,6 +48,8 @@ function scr_MAIN() {
 	global.light = 1;
 	obj_main.lighting = global.light;
 	
+	scr_text_en();
+	
 	window_set_caption("MACK BOOK PROS (UNLICENSED COPY)")
 
 	randomize()

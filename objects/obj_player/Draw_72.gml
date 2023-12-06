@@ -24,7 +24,6 @@ if !global.paused && global.screen_image == -1 {
             if !instance_exists(obj_dialogue){
                 direction -= (display_mouse_get_x()-(display_get_width()/2))/8
                 znext = clamp(znext - (display_mouse_get_y()-(display_get_height()/2))/4, -180 + z, 180 + z)
-				
 				display_mouse_set(display_get_width()/2, display_get_height()/2);
             }
         }

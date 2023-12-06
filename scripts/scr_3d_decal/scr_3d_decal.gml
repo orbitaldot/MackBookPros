@@ -19,7 +19,4 @@ function scr_3d_decal(argument0, argument1, argument2, argument3, argument4, arg
     
 	    sprite_index = spr;
 	}
-
-
-
 }

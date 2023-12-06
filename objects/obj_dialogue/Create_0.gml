@@ -21,4 +21,3 @@ box_rotate = -360;
 scrolling = false;
 
 text_surface = surface_create(abs(left-right), abs(top - bottom))
-

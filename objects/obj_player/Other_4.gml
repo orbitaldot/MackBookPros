@@ -3,4 +3,3 @@ if room == room_stairs {
 }else if room == room_tv {
     direction = 90;
 }
-
